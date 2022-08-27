@@ -11,8 +11,10 @@ namespace conditionals
         static void Main(string[] args)
         {
             int age = 17;
+            int persons = 2;
+            bool isWithSomeone = persons >= 2;
 
-            if(age >= 18)
+            if(age >= 18 || isWithSomeone == true)
             {
                 Console.WriteLine("You can enter.");
             } 
