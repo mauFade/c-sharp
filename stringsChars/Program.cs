@@ -10,7 +10,14 @@ namespace stringsChars
     {
         static void Main(string[] args)
         {
+            // Caracteres
+            char firstLetter = 'a';
 
+            string someStr = "Some string";
+
+            Console.WriteLine(firstLetter + ", " + someStr);
+
+            Console.ReadLine();
         }
     }
 }
