@@ -15,7 +15,7 @@ namespace stringsChars
 
             string someStr = "Some string";
 
-            Console.WriteLine(firstLetter + ", " + someStr);
+            Console.WriteLine(firstLetter + "\n" + someStr);
 
             Console.ReadLine();
         }
